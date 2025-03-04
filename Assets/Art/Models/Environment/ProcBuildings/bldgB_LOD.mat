@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bldgB_LOD
+  m_Shader: {fileID: -6465566751694194690, guid: d32e458b7bfea5e46b6e4717efde1cbc,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 03de808bc52389746917dd6c1fe75c62, type: 2}
+  m_ModifiedSerializedProperties: 16
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 1980
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NormAO:
+        m_Texture: {fileID: 2800000, guid: 83b1fab3e8498fb4f8024dbc8dccc2cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindowMask:
+        m_Texture: {fileID: 2800000, guid: 83b1fab3e8498fb4f8024dbc8dccc2cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlurRoom: 0.648
+    - _Border: 0.237
+    - _Diagonal_Contrast: 0.827
+    - _Exposure: 5.19
+    - _Inset_Y: 0.284
+    - _Inset_Y_Max: 0.271
+    - _LargePanelScale: 0.322
+    - _Max_Windows_Y: 4
+    - _Metallic: 0.309
+    - _Min_Windows_Y: 2
+    - _QueueOffset: -20
+    - _RandomOn: 0.31
+    - _RandomXZScale: 1
+    - _Reflectance: 1.5
+    - _Seed: 40.4
+    - _TexScal2: 0
+    - _TextureScale: 0.083
+    - _Vertical_Count: 3.63
+    - _WallSmoothness: 0.84
+    - _WindowCount: 5
+    - _WindowHeight: 0.404
+    - _WindowSmoothness: 0.999
+    - _WindowSoften: 0.596
+    - _WindowWidth: 1
+    - _debug: 1
+    - _debug2: 1
+    - _dirt: 0.188
+    - _meshSCale: 30
+    - _random: 0.573
+    - _random_Colors: 0.065
+    m_Colors:
+    - _Emissive: {r: 1.5004848, g: 1.5004848, b: 1.5004848, a: 0}
+    - _Tint1: {r: 0.7830189, g: 0.6252874, b: 0.57372135, a: 0}
+    - _Tint2: {r: 0.8584906, g: 0.6047229, b: 0.8238858, a: 0}
+    - _Tint3: {r: 0.41034764, g: 0.8584906, b: 0.6335935, a: 0}
+    - _Tint4: {r: 0.6931292, g: 0.7136678, b: 0.9339623, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3461963283425768874
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
